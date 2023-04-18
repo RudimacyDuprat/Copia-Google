@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+*, input, button{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html, body{
+height: 100vh;
+}
+
+
+body{
+display: flex;
+flex-direction: column;
+}
+
+
+.container{
+display: flex;
+justify-content: space-between;
+padding: 20px 30px;
+align-items: center;
+}
+
+
+.container a{
+margin-right: 20px;
+text-decoration: inherit;
+color:black;
+font-size: 13.5px;
+}
+
+
+.container a:hover{
+text-decoration: underline;
+}
+
+
+.menu{
+display: flex;
+margin-left: auto;
+min-width: 13vw;
+justify-content: space-between;
+}
+.GoogleApps {
+margin-right: 10px;
+}
+.google {
+flex: 1;
+display: flex;
+margin-top: 8px;
+flex-direction: column;
+}
+#logo-google {
+object-fit: contain;
+height: 100px;
+}
+.elemento {
+display: flex;
+align-items: center;
+border: 1px solid lightgray;
+height: 50px;
+padding: 10px 20px;
+border-radius: 999px;
+width: 75vw;
+margin: 0 auto;
+margin-top: 40px;
+max-width: 700px;
+}
+.elemento input{
+flex: 1;
+padding: 12px 1px;
+border: none;
+outline: none;
+}
+#keyboard, #lupa{
+color: rgb(189, 193, 198);
+}
+#mic, #cam{
+color: blue;
+}
+.botao {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+}
+.botao button{
+margin: 5px;
+padding: 10px 15px;
+background-color: #f8f8f8;
+outline: none;
+border: none;
+cursor: pointer;
+}
+.rodape {
+position: relative;
+bottom: 0;
+left: 0;
+right: 0;
+color: #5f6368;
+background-color: #f2f2f2;
+font-size: 13px;
+line-height: 40px;
+border-top: 1px solid #e4e4e4;
+justify-content: space-between;
+}
+.rodape a {
+font-size: 14px;
+margin-right: 5px;
+text-decoration: inherit;
+color:gray;
+}
+.rodape a:hover{
+text-decoration: underline;
+cursor:pointer;
+}
+
+
+
